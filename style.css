@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  color: black;
+  font-family: sans-serif Arial, Helvetica, sans-serif Cambria, Cochin, Georgia,
+    Times, "Times New Roman", serif;
+}
+
+/* logo & menu bar */
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  font-weight: light;
+  font-style: normal;
+}
+
+.menu-items {
+  margin: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 20rem;
+}
+a:hover {
+  color: #f86c19;
+}
+
+/* cart & profile side */
+
+.left-side-bar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-icon {
+  margin-right: 20px;
+}
+
+/* PRODUCT CONTAINER */
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* description container styling */
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15rem;
+  gap: 15px;
+}
+
+.branding-headline {
+  color: #f86c19;
+}
+
+.model-headline {
+  font-size: 3rem;
+}
+
+.description-text {
+  color: rgb(103, 105, 108);
+}
+.price {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.percentage {
+  background-color: #ebd5c7;
+  color: #f86c19;
+  border-radius: 3px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.in-stock-addtocart-container {
+  display: flex;
+  align-items: center;
+}
+
+.minus {
+  color: #dfa885;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.plus {
+  color: #dfa885;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.count {
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 0 30px 0 30px;
+}
+
+.in-stock {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #d6dadc;
+}
+
+.addtocart-vector {
+  background-color: #f86c19;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 60px 0 20px;
+  cursor: pointer;
+}
+.addtocart-text {
+  margin: 0 15px 0 15px;
+}
